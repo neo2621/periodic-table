@@ -46,5 +46,5 @@ if [[ $1 ]]
 then
   DISTINCT $1
 else
-  echo -e "Please provide an element as an argument. "
+  echo -e "Please provide an element as an argument."
 fi
