@@ -94,7 +94,6 @@ CREATE SEQUENCE public.types_type_id_seq
     NO MAXVALUE
     CACHE 1;
 
-
 ALTER TABLE public.types_type_id_seq OWNER TO freecodecamp;
 
 --
