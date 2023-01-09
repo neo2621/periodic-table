@@ -102,13 +102,11 @@ ALTER TABLE public.types_type_id_seq OWNER TO freecodecamp;
 
 ALTER SEQUENCE public.types_type_id_seq OWNED BY public.types.type_id;
 
-
 --
 -- Name: types type_id; Type: DEFAULT; Schema: public; Owner: freecodecamp
 --
 
 ALTER TABLE ONLY public.types ALTER COLUMN type_id SET DEFAULT nextval('public.types_type_id_seq'::regclass);
-
 
 --
 -- Data for Name: elements; Type: TABLE DATA; Schema: public; Owner: freecodecamp
